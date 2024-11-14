@@ -3,6 +3,9 @@ import pandas as pd
 from scipy import stats
 
 
+DEFAULT_RNG = np.random.default_rng(20241113)
+
+
 def datetime_to_float_year(datetimes):
     if isinstance(datetimes, pd.Series):
         date_floats = datetimes.dt.year + (datetimes.dt.month - 1) / 12 + (datetimes.dt.day - 1) / 365.242374
