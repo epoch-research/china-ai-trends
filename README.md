@@ -1,5 +1,7 @@
 # Trends in AI models from China vs. elsewhere
 
+Code for the data insight ["Chinese language models have scaled up more slowly than their global counterparts."](https://epoch.ai/data/notable-ai-models#china-compute-trends).
+
 You can install required packages using
 
 ```
