@@ -11,7 +11,7 @@ pip install -r requirements.txt
 Results can be reproduced by running `compute_analysis.ipynb`.
 
 The notebook specifies a `results_dir` where results will be saved.
-The notebooks also has a set of parameters near the top.
+The notebook also has a set of parameters near the top.
 These parameters can be modified for sensitivity analysis.
 See the description of each parameter in the notebook for details.
 
